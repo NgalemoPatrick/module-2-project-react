@@ -1,0 +1,20 @@
+.cdtsm-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+
+}
+
+.ctd-style {
+    display: flex;
+    margin-left: 10px;
+
+}
+
+.s-mode {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+}
