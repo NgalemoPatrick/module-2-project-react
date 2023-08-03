@@ -1,0 +1,34 @@
+.header-style {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282c34;
+    color: whitesmoke;
+}
+
+.title {
+    margin-left: 10px;
+}
+.title h4 {
+    color: rgb(93, 132, 95);
+}
+
+.my-resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    margin-right: 10px;
+    border: 1px solid;
+    width: 90px;
+    height: 30px;
+    color: rgb(93, 132, 95);
+    cursor: pointer;
+}
+
+.my-resume:hover {
+    background-color: whitesmoke;
+    color: #333;
+}
