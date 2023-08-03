@@ -1,6 +1,7 @@
 import Header from "./components/Header";
-import Cdtsm from './components/Cdtsm'
-import NavBar from './components/NavBar'
+import Cdtsm from './components/Cdtsm';
+import NavBar from "./components/NavBar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -8,7 +9,6 @@ function App() {
       <Header />
       <Cdtsm />
       <NavBar />
-
 
     </div>
   );
