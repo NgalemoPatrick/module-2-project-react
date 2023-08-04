@@ -1,0 +1,26 @@
+.navbar-style {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40px;
+  background-color: #282c34;
+}
+
+.navbar-style ul {
+  display: flex;
+}
+
+.navbar-style ul li {
+  list-style: none;
+}
+
+.navbar-style ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0.9rem;
+  border-radius: 0.5rem;
+  color: whitesmoke;
+  font-weight: bolder;
+  position: sticky;
+  top: 0;
+}

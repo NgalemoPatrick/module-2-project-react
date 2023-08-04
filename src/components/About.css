@@ -1,0 +1,26 @@
+.profile-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 90px;
+}
+
+.my-pic {
+    display: flex;
+    align-items: center;
+    background: whitesmoke;
+    
+}
+
+.profile-img p {
+    color: whitesmoke;
+}

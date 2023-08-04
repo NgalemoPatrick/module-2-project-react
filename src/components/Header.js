@@ -9,8 +9,8 @@ const Header = () => {
             </div>
         
         <div className="social-link">
-                <img src="" alt="GitHub" className="githut" />
-                <img src="" alt="Linkedin" className="linkedin" />
+                <img src="" alt="github" className="githut" />
+                <img src="https://static-00.iconduck.com/assets.00/linkedin-icon-512x512-xh9ebifw.png" alt="Linkedin" className="linkedin" />
         </div>
 
         <div className="my-resume">
