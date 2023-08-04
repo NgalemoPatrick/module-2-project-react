@@ -7,10 +7,10 @@ const API_KEY = "a9dd3a26089d4c1bb6163134230408"
 const BASE_URL = "https://api.weatherapi.com/v1/"
 
 // variable to store my weather api
-const url  ='https://api.weatherapi.com/v1/current.json?key=a9dd3a26089d4c1bb6163134230408&q=Keller'
+const url  ='https://api.weatherapi.com/v1/current.json?key=a9dd3a26089d4c1bb6163134230408&q=${input}'
 
 //  function to get the weather data
-const fetchData = async () => {
+const fetchData = async (input) => {
     try {
         const response = await axios.get(url);
         console.log(response.data);

@@ -12,10 +12,11 @@ import fetchData from "./services/weatherService";
 
 function App() {
   const [time, setTime] = useState(new Date());
+  
 
   // Test my get api function
   
-fetchData();
+fetchData('keller');
 
   return (
     <div className="App">
