@@ -12,7 +12,7 @@ import fetchData from "./services/weatherService";
 
 function App() {
   const [time, setTime] = useState(new Date());
-  
+  const [temp, setTemp] = useState({})
 
   // Test my get api function
   
