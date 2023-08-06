@@ -16,10 +16,20 @@
     height: 300px;
     margin-top: 25px;
     box-shadow: 5px 10px 20px rgb(93, 132, 95);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
     
 }
-.project-1:hover {
-    z-index: 2;
+
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-50px);}
+    100% {transform: translateY(0);}
 }
 
 .project-1-image {
@@ -27,7 +37,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    
 }
 
 .procject-1-description {
