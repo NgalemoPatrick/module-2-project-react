@@ -9,11 +9,31 @@
 .project-1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #333;
+    background-color: #282c34;
     width: 70%;
     height: 300px;
     margin-top: 25px;
+    box-shadow: 5px 10px 20px rgb(93, 132, 95);
     
+}
+.project-1:hover {
+    z-index: 2;
+}
+
+.project-1-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.procject-1-description {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background-color: whitesmoke;
+    height: 30%;
 }
