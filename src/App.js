@@ -5,7 +5,6 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Projects from "./components/pages/Projects";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { AiFillLinkedin } from "react-icons/ai";
 import { useState, useEffect } from "react";
 // import getWeatherData from "./services/weatherService";
 import fetchData from "./services/weatherService";
