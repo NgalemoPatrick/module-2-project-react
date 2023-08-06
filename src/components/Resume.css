@@ -1,0 +1,35 @@
+.resume-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.resu-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    width: 70%;
+    height: 1200px;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(93, 132, 95);
+    background-color: #282c34;
+    border-radius: 1.2rem;
+    margin-top: 2rem;
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.download:hover {
+    background-color: whitesmoke;
+    color: #333;
+}

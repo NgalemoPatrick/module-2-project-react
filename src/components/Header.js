@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import "./Resume.css";
 
 const Header = () => {
   return (
@@ -18,13 +19,17 @@ const Header = () => {
         </div>
         <div className="linked">
           <FaLinkedin></FaLinkedin>
-          < a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">Check My Linkedin</a>
+          <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+            Check My Linkedin
+          </a>
         </div>
       </div>
 
       <div className="my-resume">
-        <Link to='/resume' className="rsm">Resume</Link>
-        </div>
+        <Link to="/resume" className="rsm">
+          Resume
+        </Link>
+      </div>
     </section>
   );
 };

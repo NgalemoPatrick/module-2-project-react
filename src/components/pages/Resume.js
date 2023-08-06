@@ -2,7 +2,15 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <div className='resume-style'>
+        
+        <div className="resu-style">
+            Resume
+        </div>
+        <div className="download">
+            DOWNLOAD
+        </div>
+    </div>
   )
 }
 
