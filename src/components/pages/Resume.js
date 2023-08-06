@@ -19,7 +19,7 @@ const Resume = () => {
     <div className='resume-style'>
         
         <div className="resu-style">
-            Resume
+            Click Below to Download my Resume
         </div>
         <div className="download" onClick={handleDownload}>
             DOWNLOAD

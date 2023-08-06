@@ -1,3 +1,6 @@
+.active {
+    background-color: rgb(93, 132, 95);
+}
 .resume-style {
     display: flex;
     flex-direction: column;
@@ -10,10 +13,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
     margin-top: 2rem;
-    width: 70%;
-    height: 1200px;
+    color: #333;
+    font-size: 1.5rem;
+    
 }
 
 .download {
