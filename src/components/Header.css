@@ -26,8 +26,17 @@
     border: 1px solid;
     width: 90px;
     height: 30px;
-    color: rgb(93, 132, 95);
+    
     cursor: pointer;
+}
+
+.rsm {
+    color: rgb(93, 132, 95);
+    text-decoration: none;
+}
+
+.rsm:hover {
+    color: #333;
 }
 
 .my-resume:hover {

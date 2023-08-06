@@ -7,7 +7,7 @@ const cdtsm = ({month, day, year, data}) => {
   return <section className="cdtsm-style">
     <section className="ctd-style">
         <div className="city-name">
-            keller |  
+            keller, Tx|  
         </div>
         <div className="date">
         {month+1}-{day}-{year}

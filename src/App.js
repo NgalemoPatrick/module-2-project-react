@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Projects from "./components/pages/Projects";
+import Resume from "./components/pages/Resume";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 // import getWeatherData from "./services/weatherService";
@@ -56,6 +57,7 @@ function App() {
         <Route path="/" element={<About />} />
         <Route path="/PROJECTS" element={<Projects />} />
         <Route path="/CONTACT" element={<Contact />} />
+        <Route path="/resume" element={<Resume/>} />
       </Routes>
     </div>
   );
