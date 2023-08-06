@@ -14,13 +14,13 @@ const Header = () => {
 
       <div className="social-link">
         <div className="git">
-          <FaGithub></FaGithub>
-          <a href="https://github.com/NgalemoPatrick">Check my GitHub</a>
+          <FaGithub size='1.5rem' color='#5d845f'></FaGithub>
+          <a href="https://github.com/NgalemoPatrick">Check out my GitHub</a>
         </div>
         <div className="linked">
-          <FaLinkedin></FaLinkedin>
+          <FaLinkedin size='1.5rem' color='#5d845f'></FaLinkedin>
           <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
-            Check My Linkedin
+            Check out My Linkedin
           </a>
         </div>
       </div>
