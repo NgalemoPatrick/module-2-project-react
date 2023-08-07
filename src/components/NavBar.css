@@ -8,6 +8,7 @@
   align-items: center;
   height: 40px;
   background-color: #282c34;
+  flex-grow: 1;
 }
 
 .navbar-style ul {

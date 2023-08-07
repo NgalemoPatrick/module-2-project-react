@@ -14,14 +14,14 @@ const projects = () => {
       {/* project 2 section */}
       <div className="project-1 bounce">
         <div className="project-1-image">
-          <img src="https://www.nicepng.com/png/detail/205-2056130_tic-tac-toe-tic-tac-toe-png.png" alt="Project 2" className="procj-1" />
+          <a href="#"><img src="https://www.nicepng.com/png/detail/205-2056130_tic-tac-toe-tic-tac-toe-png.png" alt="Project 2" className="procj-1" /></a>
         </div>
         <div className="procject-1-description"></div>
       </div>
       {/* project 3 section */}
       <div className="project-1 bounce">
         <div className="project-1-image">
-          <img src="https://p7.hiclipart.com/preview/20/29/236/scrabble-letter-distributions-tile-scrabble-letter-distributions-clip-art-letter-tiles-cliparts.jpg" alt="Project 3" className="procj-1" />
+          <a href="https://github.com/NgalemoPatrick/mod-1-project"><img src="https://www.lansingstatejournal.com/gcdn/presto/2020/10/22/PLSJ/5b17bd4e-cecb-4c8e-b9c7-5f8dfb4c3fa0-MLS_Lingo_PRINT.jpg" alt="Project 3" className="procj-1" /></a>
         </div>
         <div className="procject-1-description"></div>
       </div>

@@ -2,8 +2,10 @@ import React from 'react'
 import './Footer.css'
 
 const Footer = () => {
+
+  const year = new Date();
   return <section className="footer-style">
-    <h5>Copyright &copy,FabriceNgalemo 2023</h5>
+    <p>Copyright &copy;FabriceNgalemo {year.getFullYear()}</p>
   </section>
   }
 
