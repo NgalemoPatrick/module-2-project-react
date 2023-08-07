@@ -36,12 +36,12 @@
 }
 
 .rsm:hover {
-    color: #333;
+    color: whitesmoke;
 }
 
 .my-resume:hover {
-    background-color: whitesmoke;
-    color: #333;
+    background-color: rgb(93, 132, 95);
+   
 }
 
 .social-link {
