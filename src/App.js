@@ -6,6 +6,7 @@ import Contact from "./components/pages/Contact";
 import Projects from "./components/pages/Projects";
 import Resume from "./components/pages/Resume";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Footer from "./components/Footer";
 import { useState, useEffect } from "react";
 // import getWeatherData from "./services/weatherService";
 import fetchData from "./services/weatherService";
@@ -59,6 +60,7 @@ function App() {
         <Route path="/CONTACT" element={<Contact />} />
         <Route path="/resume" element={<Resume/>} />
       </Routes>
+      {/* <Footer /> */}
     </div>
   );
 }
