@@ -1,6 +1,6 @@
 import React from "react";
 import '../About.css'
-
+import { FaReact, FaJs, FaNodeJs, FaMongoDb, FaPython } from "react-icons/fa";
 const about = () => {
   return <section className="profile-img">
     <div className="photo">
@@ -11,6 +11,9 @@ const about = () => {
         to see some of my work. For more information about me please 
         feel free to contact me.
     </p>
+    <div className="icons-style">
+
+    </div>
   </section>;
 };
 

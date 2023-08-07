@@ -1,6 +1,7 @@
 .profile-img {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 50%;
     margin: auto;
@@ -10,8 +11,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 90px;
+    width: 400px;
+    height: 400px;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    box-shadow: 5px -10px 5px rgb(93, 132, 95);
+    border: 5px solid;
+    border-radius: 1.5rem;
 }
 
 .my-pic {
@@ -23,4 +29,5 @@
 
 .profile-img p {
     color: whitesmoke;
+    margin-top: 30px;
 }
