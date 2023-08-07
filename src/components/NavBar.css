@@ -14,6 +14,10 @@
   display: flex;
 }
 
+.navbar-style ul.open {
+  display: flex;
+}
+
 .navbar-style ul li {
   list-style: none;
 }
@@ -60,7 +64,7 @@
     align-items: start;
   }
   .navbar-style ul {
-    /* display: none; */
+    display: none;
     flex-direction: column;
     width: 100%;
     margin-bottom: a.25rem;
