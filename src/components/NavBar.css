@@ -8,7 +8,6 @@
   align-items: center;
   height: 40px;
   background-color: #282c34;
-  
 }
 
 .navbar-style ul {
@@ -32,4 +31,47 @@
 
 .navbar-style ul li a:not(.active):hover {
   background-color: #13111c;
+}
+
+.h-menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 0.7rem;
+  right: 0.5rem;
+  width: 2.2rem;
+  height: 2rem;
+}
+
+.h-menu span {
+  height: 0.3rem;
+  width: 100%;
+  background-color: rgb(93, 132, 95);
+  border-radius: 0.2rem;
+  margin: 1px;
+}
+
+@media (max-width: 480px) {
+  .h-menu {
+    display: flex;
+  }
+  .navbar-style {
+    flex-direction: column;
+    align-items: start;
+  }
+  .navbar-style ul {
+    /* display: none; */
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: a.25rem;
+
+  }
+  .navbar-style ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-style ul li a {
+    margin: 0.2rem;
+  }
 }
