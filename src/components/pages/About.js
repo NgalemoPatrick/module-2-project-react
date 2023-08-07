@@ -1,6 +1,6 @@
 import React from "react";
 import "../About.css";
-import { FaReact, FaJs, FaNodeJs, FaMongoDb, FaPython } from "react-icons/fa";
+import { FaReact, FaJs, FaNodeJs, FaPython } from "react-icons/fa";
 const about = () => {
   return (
     <section className="profile-img">

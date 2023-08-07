@@ -1,5 +1,27 @@
+
 .form-style {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+form > label {
+    display: flex;
+    color: rgb(93, 132, 95);
+}
+
+form > textarea {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    
 }
