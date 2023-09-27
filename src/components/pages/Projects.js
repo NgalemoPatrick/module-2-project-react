@@ -7,21 +7,21 @@ const projects = () => {
       {/* project 1 section */}
       <div className="project-1 bounce">
         <div className="project-1-image">
-          <img src="https://clipart-library.com/image_gallery/n714746.png" alt="Project 1" className="procj-1" />
+          <img src="" alt="Project 1" className="procj-1" />
         </div>
         <div className="procject-1-description"></div>
       </div>
       {/* project 2 section */}
       <div className="project-1 bounce">
         <div className="project-1-image">
-          <a href="#"><img src="https://www.nicepng.com/png/detail/205-2056130_tic-tac-toe-tic-tac-toe-png.png" alt="Project 2" className="procj-1" /></a>
+          <a href="#"><img src="" alt="Project 2" className="procj-1" /></a>
         </div>
         <div className="procject-1-description"></div>
       </div>
       {/* project 3 section */}
       <div className="project-1 bounce">
         <div className="project-1-image">
-          <a href="https://github.com/NgalemoPatrick/mod-1-project"><img src="https://www.lansingstatejournal.com/gcdn/presto/2020/10/22/PLSJ/5b17bd4e-cecb-4c8e-b9c7-5f8dfb4c3fa0-MLS_Lingo_PRINT.jpg" alt="Project 3" className="procj-1" /></a>
+          <a href="https://github.com/NgalemoPatrick/mod-1-project"><img src="" alt="Project 3" className="procj-1" /></a>
         </div>
         <div className="procject-1-description"></div>
       </div>

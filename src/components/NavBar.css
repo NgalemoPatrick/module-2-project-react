@@ -1,5 +1,5 @@
 .active {
-  background-color: rgb(93, 132, 95);
+  background-color: whitesmoke;
 }
 
 .navbar-style {
@@ -28,7 +28,7 @@
   text-decoration: none;
   padding: 0.5rem;
   border-radius: 2.2rem;
-  color: whitesmoke;
+  color: rgb(93, 132, 95);
   font-weight: bolder;
   position: sticky;
   top: 0;
@@ -68,7 +68,8 @@
     display: none;
     flex-direction: column;
     width: 100%;
-    margin-bottom: a.25rem;
+    margin-bottom: 0.25rem;
+    margin-top: 1.2rem;
 
   }
   .navbar-style ul li {

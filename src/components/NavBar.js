@@ -14,13 +14,13 @@ const NavBar = () => {
       </div>
       <ul className={openMenu ? 'open' : ''}>
         <li>
-          <NavLink to="/">ABOUT ME</NavLink>
+          <NavLink to="/">About me</NavLink>
         </li>
         <li>
-          <NavLink to="/Projects">PROJECTS</NavLink>
+          <NavLink to="/Projects">Projects</NavLink>
         </li>
         <li>
-          <NavLink to="/Contact">CONTACT</NavLink>
+          <NavLink to="/Contact">Contact</NavLink>
         </li>
       </ul>
     </nav>

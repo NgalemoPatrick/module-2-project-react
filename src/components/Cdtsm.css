@@ -24,3 +24,9 @@
 .date {
 
 }
+
+@media (max-width: 480px) {
+    .cdtsm-style {
+        display: none;
+    }
+}

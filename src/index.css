@@ -12,5 +12,6 @@ body {
     sans-serif;
   font-size: clac(10px + 2vmin);
   background-color: #13111c;
+  min-height: 100vh;
 }
 

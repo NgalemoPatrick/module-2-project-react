@@ -23,7 +23,7 @@ const Resume = () => {
             Click Below to Download my Resume
         </div>
         <div className="download" onClick={handleDownload}>
-            DOWNLOAD
+            Dowload
         </div>
     </div>
   )
