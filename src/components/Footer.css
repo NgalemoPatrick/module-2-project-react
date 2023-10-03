@@ -6,7 +6,7 @@
     height: 50px;
     background-color: #282c34;
     margin-top: 50px;
-    position: sticky;
+    position: absolute;
     bottom: 0;
 }
 
